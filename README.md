@@ -1,108 +1,99 @@
-# 📊 Adventure Works Analytics Dashboard (Power BI)
+# 📊 Adventure Works Sales & Profit Dashboard  
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-0078D4?logo=microsoft)
-![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Preparation-5E5E5E?logo=powerquery)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+<p>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Data_Visualization-4CAF50?style=flat" />
+  <img src="https://img.shields.io/badge/Business_Intelligence-FF9800?style=flat" />
+  <img src="https://img.shields.io/badge/DAX_Analysis-2962FF?style=flat" />
+  <img src="https://img.shields.io/badge/Data_Modeling-9C27B0?style=flat" />
+</p>
 
-An interactive **Adventure Works Analytics Dashboard** built in **Power BI**, delivering insights into sales, profit, targets, regions, product categories, and performance against goals.  
-This project demonstrates strong skills in **data modeling**, **DAX**, **time-intelligent analysis**, and **dashboard design**.
+### **Power BI • Sales Analytics • Adventure Works Dataset**
+
+This interactive Power BI dashboard provides a deep dive into **sales performance**, **profitability**, **regional trends**, and **product category insights** using the Adventure Works dataset.  
+Designed for clarity and decision-making, the dashboard includes KPIs, monthly trends, category breakdowns, and filtering options to explore sales across multiple dimensions.
 
 ---
 
-## 🚀 Dashboard Features
+## 🔗 Dashboard File  
+- **Adventure Works Dashboard.pbix** — Fully interactive Power BI report  
+  Includes:  
+  - Sales & profit KPIs  
+  - Monthly sales & margin trends  
+  - Category & region analysis  
+  - Hierarchical table breakdown  
 
-- **KPI Multi-Row Card**  
-  - Total Sales  
+---
+
+## 🖼️ Screenshots
+
+### **📌 Salesperson Sales and Target Variance Dashboard**
+<img width="1717" height="797" alt="Adventure_Works_1" src="https://github.com/user-attachments/assets/be855289-cc35-4b29-a04d-bcee8a262fbf" />
+
+---
+
+### **📌 Regional & Category Sales Overview**
+<img width="1417" height="796" alt="Adventure_Works_2" src="https://github.com/user-attachments/assets/05165cba-f35f-4863-b93d-ab2b64899120" />
+
+---
+
+### **📌 Hierarchical Sales Table View**
+<img width="819" height="424" alt="Adventure_Works_3" src="https://github.com/user-attachments/assets/a1258bbd-2a90-4b6d-a7c5-34aad33ceb7f" />
+
+---
+
+### **📌 Filtered Regional Category Sales Overview**
+<img width="1426" height="799" alt="Adventure_Works_4" src="https://github.com/user-attachments/assets/451b9f49-9b90-41b2-aca2-331815ccbaa1" />
+
+---
+
+## 📈 Dashboard Features
+
+- **Monthly Sales & Profit Margin Analysis**  
+  Track seasonality, trends, and performance across FY2019–FY2020.
+
+- **Category & Group Breakdown**  
+  Explore contributions from key categories:  
+  *Accessories, Bikes, Clothing, Components*.
+
+- **Regional Filtering**  
+  Slice data by region:  
+  *Australia, Canada, Central, France, Germany, US Regions, UK,* and more.
+
+- **KPI Overview**  
+  - Sum of Sales  
   - Target  
   - Variance  
-  - Variance Margin  
+  - Margin %  
+  Perfect for rapid performance assessment.
 
-- **Sales vs. Profit Margin Over Time**  
-  - Combo chart showing:
-    - **Sales** (column)  
-    - **Profit Margin** (line)  
-    - Across **Date.Month**
-
-- **Regional Sales Breakdown**  
-  - Column chart by:
-    - **Region Group**  
-    - **Product Category**
-
-- **Quantity Sold by Product Category**  
-  - Bar chart showing:
-    - **Category** vs **Quantity Sold**
-
-- **Target vs. Actual Performance**  
-  - Clustered bar/column charts comparing:
-    - **Sales**  
-    - **Targets.Target**  
-    - Across **Date.Month**
-
-- **Financial Performance Table (Pivot)**  
-  - Fiscal Year → Quarter → Month  
-  - Includes:
-    - Sales Orders  
-    - Sales  
-    - Cost  
-    - Profit  
-    - Profit Margin  
-
-- **Interactive Slicers**  
-  - Fiscal Year  
-  - Region  
-  - More Year/Region filters for synced cross-filtering  
+- **Table View with Drill-Down**  
+  Expand by:  
+  - Year  
+  - Quarter  
+  - Month  
+  - Daily snapshots (if extended)
 
 ---
 
-## 🧠 Skills Demonstrated
+## 📂 Dataset Information
 
-### **Data Modeling**
-- Built a structured star schema including:
-  - **Date**, **Region**, **Product**, **Sales**, and **Targets**
-- Configured relationships enabling accurate cross-filtering and time intelligence.
+- **Source:** AdventureWorks Sales Dataset  
+- **Years Covered:** FY2018 → FY2020  
+- **Includes:**  
+  - Orders, Sales, Costs, Profit  
+  - Product Categories & Groups  
+  - Regions  
+  - Profit Margin Calculation  
 
-### **DAX & Measures**
-- Key measures used:
-  - `Sum(Sales.Sales)`  
-  - `Sum(Sales.Cost)`  
-  - `Sales.Profit`  
-  - `Sales.Profit Margin`  
-  - `Targets.Target`, `Targets.Variance`, `Targets.Variance Margin`
-- Implemented:
-  - **Month-level trend analysis**  
-  - **Fiscal calendar hierarchy** (Year → Quarter → Month)  
-  - **Variance metrics** for target tracking  
-
-### **Visualization & Design**
-- Dashboard includes:
-  - Combo charts  
-  - Column & bar charts  
-  - Multi-row KPI cards  
-  - Pivot tables  
-  - Slicers for Year and Region  
-- Prioritized:
-  - Clear layout  
-  - Consistent color palette  
-  - Business-ready formatting  
+Power BI measures and relationships prepared to support drilldowns, YoY comparison, and clear category segmentation.
 
 ---
 
-## 🎯 Key Insights
+## ⭐ Key Insights
 
-- **Sales vs Target Performance:**  
-  Monthly charts reveal whether the business is consistently hitting, exceeding, or missing targets.
-
-- **Profitability Trends:**  
-  The combo chart shows periods where **profit margin diverges from sales**, signaling margin pressure or efficiency gains.
-
-- **Regional Performance Variation:**  
-  Sales differ significantly by **Region Group**, with strong category-based variation visible in the regional column chart.
-
-- **Product Category Volume Leaders:**  
-  Clear identification of which product categories drive **quantity sold**, supporting operational and inventory decisions.
-
-- **Full Fiscal View:**  
-  The pivot table provides a detailed multi-level breakdown across the fiscal hierarchy, showing key financial metrics over time.
-
----
+- Bikes and Clothing categories are the **top revenue drivers**  
+- Profit margin fluctuates significantly during early FY2020  
+- North America overwhelmingly leads global sales  
+- Accessories & Components follow consistent mid-tier performance  
+- Central region shows notable month-to-month sales variation  
